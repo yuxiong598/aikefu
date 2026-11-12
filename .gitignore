@@ -5,8 +5,30 @@
 
 # Python 虚拟环境与缓存
 .venv/
+venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE 本地项目配置
+.idea/
+.vscode/
+
+# 前端依赖及构建产物
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 日志与操作系统临时文件
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # 本地数据库、向量库和模型缓存
 /backend/data/
